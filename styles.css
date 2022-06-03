@@ -60,9 +60,14 @@ p {
 }
 
 .content-container {
-  padding: 60px 20px;
+  padding: 50px 20px;
 }
 
+.project-container{
+  padding: 5px 2px;
+  border: 1px solid var(--branding-color);
+  background-color: #e5e4fd;
+}
 .content h1 {
   font-size: 64px;
   line-height: 80px;
@@ -117,12 +122,22 @@ p {
   color: white;
 }
 
+.btn {
+  justify-content: center;
+  align-items: center;
+}
+
 .project-description {
-  padding: 20px 10px;
+  padding: 10px 5px;
+  background: var(--secondary-color);
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
 }
 
 .projects{
   padding: 20px 30px;
+  max-height: 700px;
   overflow-x: hidden; /* Hide horizontal scrollbar */
   overflow-y: scroll; /* Add vertical scrollbar */
 }
@@ -133,6 +148,7 @@ p {
 }
 
 .img-fluid{
+  /* padding: 3px; */
   border-radius: 12px;
  /*  max-height: 350px;
   align-items: center;
@@ -169,6 +185,8 @@ nav li.active a {
 
 footer {
   margin: 60px 0;
+  text-align: center;
+  justify-content: center;
 }
 
 footer .contact-box {
@@ -183,7 +201,7 @@ footer .contact-box p {
 
 footer .email-link {
   text-decoration: none;
-  color: black;
+  color: rgb(245, 193, 62);;
   font-size: 24px;
 }
 
@@ -231,6 +249,14 @@ footer .social-links a:hover {
   }
 }
 
+iframe{
+padding: 10px;
+width: 500;
+height: 600;
+background-color: var(--secondary-color);
+justify-content: center;
+margin-left: 320px;
+}
 
 /* h1{
   color: black;
