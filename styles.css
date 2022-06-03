@@ -286,7 +286,7 @@ i:visited {
   color: green;
 }
 /* mouse over link */
-.shecodes, i:hover {
+ .shecodes, i:hover {
   color: rgb(245, 193, 62);
   transform: scale(1.5);
 }
@@ -296,7 +296,10 @@ i:active {
   color: blue;
 }
 
-
+.logo:hover{
+  padding:2px;
+  transform: scale(1.2);
+}
 /* company logo formatting */
 .google{
   width:90px;
